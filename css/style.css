@@ -620,6 +620,10 @@ section{
 }
 .food-menu .section-dishes {
     flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.ipad-wings {
+    display: none;
 }
 
 }
@@ -673,6 +677,9 @@ section{
         margin: 12px 0;
     }
     .mobile-entree{
+        display: none;
+    }
+    .ipad-wings {
         display: none;
     }
     
