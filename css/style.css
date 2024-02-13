@@ -123,9 +123,36 @@ section{
 .header .icons div:hover{
     color:var(--main-color);
 }
-
+.header.header-scrolled .icons div.fa:hover {
+    color: #fff;
+}
+.header-scrolled .icons div.fa {
+    color: #fff;
+}
 #menu-btn{
     display: none;
+}
+
+.timings .hours, .timings .days {
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.timings .hours {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    padding: 0 0 5px 0;
+    font-weight: 800;
+}
+.timings .days span {
+    color: var(--main-color);
+    font-weight: 700;
+}
+.header-scrolled .timings .days span {
+    color: black;
+}
+.desktop-time{
+    display: block;
 }
 
 .home{
@@ -431,6 +458,14 @@ section{
 
     #menu-btn{
         display: inline-block;
+        display: flex;
+        align-items: center;
+    }
+    .desktop-time{
+        display: none;
+    }
+    .mobile-time.timings .hours,.mobile-time.timings .days {
+        font-size: 1.4rem;
     }
     .header.header-scrolled #menu-btn {
         color: #fff;
