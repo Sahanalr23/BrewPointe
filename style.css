@@ -309,22 +309,23 @@ section{
     font-size: 2.5rem;
     padding: 0 0 2.5rem 0;
 }
+.address.hours-contact {
+    padding: 2.5rem 0 0 0;
+}
+.address.hours-contact p{
+    padding-left: 5rem;
+}
 .contact-info .address p {
     font-size: 1.5rem;
-    max-width: 19rem;
+    max-width: 30rem;
     line-height: 1.5;
+    padding-left: 5rem;
+
 }
 .call-info p a {
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.5;
-}
-.call-info p:hover i {
-    padding-right: 5rem;
-}
-.address:hover p{
-    padding-left: 5rem;
-    max-width: 25rem;
 }
 
 .blogs .box-container{
